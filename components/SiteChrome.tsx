@@ -2,13 +2,34 @@
 
 import { usePathname } from "next/navigation";
 import { ArrowUp, CalendarCheck, Phone } from "lucide-react";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 /** Scroll progress bar, back-to-top button and a sticky call/book bar for phones. */
 export function SiteChrome({ phone, phoneHref, ctaLabel }: { phone: string; phoneHref: string; ctaLabel: string }) {
   const pathname = usePathname();
+  const poppedRef = useRef(false);
   const [y, setY] = useState(0);
   const [progress, setProgress] = useState(0);
+
+  // Back/forward buttons restore their own scroll position; remember that one was used.
+  useEffect(() => {
+    const onPop = () => {
+      poppedRef.current = true;
+    };
+    window.addEventListener("popstate", onPop);
+    return () => window.removeEventListener("popstate", onPop);
+  }, []);
+
+  // Every normal navigation starts at the top of the new page. Next.js skips this when the new
+  // page's first element is hidden at the current screen size, which left some pages scrolled.
+  useEffect(() => {
+    if (poppedRef.current) {
+      poppedRef.current = false;
+      return;
+    }
+    if (window.location.hash) return;
+    window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+  }, [pathname]);
 
   useEffect(() => {
     let raf = 0;

@@ -9,7 +9,7 @@ type Tone = "dark" | "light";
 type IconType = ComponentType<{ className?: string }>;
 
 const input = (tone: Tone, hasIcon: boolean, error?: boolean) =>
-  `w-full rounded-xl border py-3.5 text-base outline-none transition-all duration-200 sm:py-3 sm:text-[0.95rem] ${
+  `w-full resize-none rounded-xl border py-3.5 text-base outline-none transition-all duration-200 sm:py-3 sm:text-[0.95rem] ${
     hasIcon ? "pl-11 pr-4" : "px-4"
   } ${
     tone === "dark"
