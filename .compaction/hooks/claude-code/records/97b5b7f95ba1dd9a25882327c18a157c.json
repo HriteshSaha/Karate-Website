@@ -1,0 +1,17 @@
+{
+  "schema": "compaction.claude-code-hook-record.v1",
+  "tool": "claude-code",
+  "sessionId": "7c1077be-7f36-4424-bfc6-22cc58fa31b1",
+  "dedupKey": "97b5b7f95ba1dd9a25882327c18a157c",
+  "inputTokens": 552,
+  "outputTokens": 418982,
+  "cacheReadInputTokens": 110149866,
+  "cacheCreationInputTokens": 1740325,
+  "totalTokens": 112309725,
+  "providerReported": true,
+  "tokenSource": "provider-reported",
+  "provider": "anthropic",
+  "model": "claude-sonnet-5-5",
+  "messageCount": 1247,
+  "recordedAt": "2026-10-11T11:51:12.094Z"
+}

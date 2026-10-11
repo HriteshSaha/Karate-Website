@@ -1,0 +1,110 @@
+{
+  "schema": "compaction.claude-code-hook-ledger.v1",
+  "entries": [
+    {
+      "dedupKey": "f310ea510a298cb56d9475f421706d83",
+      "sessionId": "7c1077be-7f36-4424-bfc6-22cc58fa31b1",
+      "recordedAt": "2026-10-10T22:51:02.929Z"
+    },
+    {
+      "dedupKey": "4c1d7ac873639845b31953884cee4c7b",
+      "sessionId": "7c1077be-7f36-4424-bfc6-22cc58fa31b1",
+      "recordedAt": "2026-10-10T23:08:40.103Z"
+    },
+    {
+      "dedupKey": "4b5ae240b88e3ce0e66c9490b531345d",
+      "sessionId": "7c1077be-7f36-4424-bfc6-22cc58fa31b1",
+      "recordedAt": "2026-10-10T23:44:03.837Z"
+    },
+    {
+      "dedupKey": "8b539661226b9722c6eb1775d2c7e163",
+      "sessionId": "7c1077be-7f36-4424-bfc6-22cc58fa31b1",
+      "recordedAt": "2026-10-10T23:50:41.958Z"
+    },
+    {
+      "dedupKey": "d3d6e1976db208b91add6a22f194c0c4",
+      "sessionId": "7c1077be-7f36-4424-bfc6-22cc58fa31b1",
+      "recordedAt": "2026-10-11T00:15:32.278Z"
+    },
+    {
+      "dedupKey": "aa1130c81d85bda795d39ab37d3b3332",
+      "sessionId": "7c1077be-7f36-4424-bfc6-22cc58fa31b1",
+      "recordedAt": "2026-10-11T00:28:56.240Z"
+    },
+    {
+      "dedupKey": "04402bf9fb951571dc3612c7520fbe9f",
+      "sessionId": "7c1077be-7f36-4424-bfc6-22cc58fa31b1",
+      "recordedAt": "2026-10-11T00:42:37.323Z"
+    },
+    {
+      "dedupKey": "a786855cbb31b1c9eb893f6998e67e16",
+      "sessionId": "7c1077be-7f36-4424-bfc6-22cc58fa31b1",
+      "recordedAt": "2026-10-11T01:23:59.028Z"
+    },
+    {
+      "dedupKey": "162019f458c5009c3c6da4d2035d784b",
+      "sessionId": "7c1077be-7f36-4424-bfc6-22cc58fa31b1",
+      "recordedAt": "2026-10-11T02:30:37.153Z"
+    },
+    {
+      "dedupKey": "afb1a4396ce9fe822cb6a8e831013393",
+      "sessionId": "7c1077be-7f36-4424-bfc6-22cc58fa31b1",
+      "recordedAt": "2026-10-11T07:52:07.437Z"
+    },
+    {
+      "dedupKey": "03aaab49462d4f946d5a9b6f56dbb680",
+      "sessionId": "7c1077be-7f36-4424-bfc6-22cc58fa31b1",
+      "recordedAt": "2026-10-11T11:18:07.801Z"
+    },
+    {
+      "dedupKey": "78ecf63f0a1dc82696123089f62f951b",
+      "sessionId": "7c1077be-7f36-4424-bfc6-22cc58fa31b1",
+      "recordedAt": "2026-10-11T11:37:38.199Z"
+    },
+    {
+      "dedupKey": "97b5b7f95ba1dd9a25882327c18a157c",
+      "sessionId": "7c1077be-7f36-4424-bfc6-22cc58fa31b1",
+      "recordedAt": "2026-10-11T11:51:12.094Z"
+    },
+    {
+      "dedupKey": "a8a465af49210f57180671605e9e48b9",
+      "sessionId": "7c1077be-7f36-4424-bfc6-22cc58fa31b1",
+      "recordedAt": "2026-10-11T12:17:10.036Z"
+    },
+    {
+      "dedupKey": "1268da38673ecc6d70ad9b0bf07a2aca",
+      "sessionId": "7c1077be-7f36-4424-bfc6-22cc58fa31b1",
+      "recordedAt": "2026-10-11T12:27:44.227Z"
+    },
+    {
+      "dedupKey": "3ace82f9b7cffeab719470b973ed1cad",
+      "sessionId": "7c1077be-7f36-4424-bfc6-22cc58fa31b1",
+      "recordedAt": "2026-10-11T12:30:08.219Z"
+    },
+    {
+      "dedupKey": "c20c0c65e0560bcb14081a9be5960e39",
+      "sessionId": "7c1077be-7f36-4424-bfc6-22cc58fa31b1",
+      "recordedAt": "2026-10-11T12:45:46.590Z"
+    },
+    {
+      "dedupKey": "1e310350dafe2065cd01ce17678b08a1",
+      "sessionId": "7c1077be-7f36-4424-bfc6-22cc58fa31b1",
+      "recordedAt": "2026-10-11T13:39:23.857Z"
+    },
+    {
+      "dedupKey": "15765156e628fbb6dbd3115ae7cb82ab",
+      "sessionId": "7c1077be-7f36-4424-bfc6-22cc58fa31b1",
+      "recordedAt": "2026-10-11T13:41:13.725Z"
+    },
+    {
+      "dedupKey": "66cfedfa7a65a6c5d1459fb509fe34f8",
+      "sessionId": "7c1077be-7f36-4424-bfc6-22cc58fa31b1",
+      "recordedAt": "2026-10-11T14:19:05.466Z"
+    },
+    {
+      "dedupKey": "267c15d022f09ce6803281eb9df64cf4",
+      "sessionId": "7c1077be-7f36-4424-bfc6-22cc58fa31b1",
+      "recordedAt": "2026-10-11T14:47:59.727Z"
+    }
+  ]
+}
